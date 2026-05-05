@@ -1,0 +1,2 @@
+USR001,Kamal Perera,kamal@mail.com,pass123,CUSTOMER
+USR002,Nimal Silva,nimal@mail.com,pass456,CUSTOMERUSR1777749658813,Anupa Chirantha,paachirantha20@gmail.com,anupa,CUSTOMER
