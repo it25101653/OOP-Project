@@ -51,6 +51,6 @@ public class Order {
         String[] p = line.split(",", 7);
         return new Order(p[0], p[1], p[2], p[3],
                 Integer.parseInt(p[4]),
-                Double.parseDouble(p[5]), p[6]);
+                Double.parseDouble(p[5]), p[6]); 
     }
 }
