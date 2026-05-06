@@ -12,6 +12,6 @@ public class OnlineOrder extends Order {
 
     @Override
     public double calculateTotal(double unitPrice, int qty) {
-        return (unitPrice * qty) + DELIVERY;
+        return (unitPrice * qty) + DELIVERY; 
     }
 }
