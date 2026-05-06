@@ -64,5 +64,7 @@ public class MedicineService {
         } catch (IOException e) { e.printStackTrace(); }
     }
 
-    public String generateId() { return "MED" + System.currentTimeMillis(); }
+    public String generateId() { 
+        return "MED" + System.currentTimeMillis(); 
+    }
 }
