@@ -53,4 +53,5 @@ public class MedicineController {
         medicineService.delete(id);
         return "redirect:/medicines";
     }
+    
 }
