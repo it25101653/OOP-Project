@@ -60,8 +60,12 @@ public class MedicineService {
 
     private void saveAll(List<Medicine> list) {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(FILE, false))) {
-            for (Medicine m : list) { bw.write(m.toFileString()); bw.newLine(); }
-        } catch (IOException e) { e.printStackTrace(); }
+            for (Medicine m : list) { 
+                bw.write(m.toFileString()); bw.newLine(); 
+            }
+        } catch (IOException e) { 
+            e.printStackTrace(); 
+        }
     }
 
     public String generateId() { 
