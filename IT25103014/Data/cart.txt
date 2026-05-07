@@ -1,0 +1,2 @@
+USR001,MED001,Paracetamol 500mg,2,12.50
+USR001,MED002,Vitamin C 1000mg,1,8.00
